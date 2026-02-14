@@ -12,269 +12,287 @@
   "language": "el",
   "preview": "sounds/villager-male-move-vulome.mp3",
   "categories": {
-    "session.start": [
-      {
-        "file": "sounds/villager-male-select-lege.mp3",
-        "label": "Λέγε (Speak) - Male Villager",
-        "sha256": "08b4dda295c072c5c517389c8f2d953a88f60a4d98f9f0c2de335aaac1accc66"
-      },
-      {
-        "file": "sounds/villager-male-select-prostaghma.mp3",
-        "label": "Πρόσταγμα (Order/command?) - Male Villager",
-        "sha256": "073fb1a72f8aa3f586714ad9110a2f76e6af07e926f85d8f6b5d71856b22db51"
-      },
-      {
-        "file": "sounds/villager-male-move-vulome.mp3",
-        "label": "Βούλομαι (I will/want) - Male Villager",
-        "sha256": "fcdec5f728e4ed2ad68a0750c84865885497ab77469c5e3a0bdfed77f3d7be83"
-      },
-      {
-        "file": "sounds/soldier-select-prostaghma.mp3",
-        "label": "Πρόσταγμα (Order/command?) - Military",
-        "sha256": "8bfbc6e3e3e9cba5b97d86f95dd1523faa05ea1c2b87f7900e0af8a05ebe2be1"
-      },
-      {
-        "file": "sounds/soldier-attack-ismakhin.mp3",
-        "label": "Εἰς μάχην (To battle) - Military",
-        "sha256": "9af5c94e2b9cf57acb1d6d130c60b64a7ddba1b0feaf972275d03cbfa967f3ba"
-      },
-      {
-        "file": "sounds/soldier-move-vulome.mp3",
-        "label": "Βούλομαι (I will/want) - Military",
-        "sha256": "5d051bd1147e5b0a049bec57282e66f8445273a549e09e8fbe5a913cc1e720ab"
-      },
-      {
-        "file": "sounds/soldier-attack-porro.mp3",
-        "label": "Πόρρω (Forward!) - Military",
-        "sha256": "ab52680cd564424f5b04f9420424d5f0f368dd61ea264c37f3350544ceef749d"
-      },
-      {
-        "file": "sounds/hero-attack-ismakhin.mp3",
-        "label": "Εἰς μάχην (To battle) - Heroes",
-        "sha256": "7f4e987270af2ab2e619c7f6141ee8ac2e53109475b1d9b85ca98949c43e6f53"
-      },
-      {
-        "file": "sounds/villager-male-chop-dhritomos.mp3",
-        "label": "Δρυτόμος (Timber/woodcutter) - Male Villager",
-        "sha256": "ebd59998a884a52e5eae3fabe867602eae50ca3cc8173b5fc4fdee7894d1868e"
-      },
-      {
-        "file": "sounds/villager-male-mine-metalefs.mp3",
-        "label": "Μεταλλεύς (Metalworker) - Male Villager",
-        "sha256": "5186b39d835e09c6f1a9ce7fde48f57811a67096476bb21b3c3025083d832334"
-      },
-      {
-        "file": "sounds/villager-male-fish-aliefs.mp3",
-        "label": "Ἁλιεύς (Fisherman) - Male Villager",
-        "sha256": "a579b6e3185d9659a30cbfb3e3324506756a18a628b31d44238e21992a66869f"
-      },
-      {
-        "file": "sounds/villager-male-forage-vouforvos.mp3",
-        "label": "Βουφόρβος (Ox herder) - Male Villager",
-        "sha256": "dac27b1e4b8b7083e06a2a65b981c22ee5b249e8ded353705d2916bd33f646b0"
-      },
-      {
-        "file": "sounds/villager-male-pray-tapinos.mp3",
-        "label": "Ταπεινός (Humbly) - Male Villager",
-        "sha256": "f097c938089b69d0eac59cfaa307bce3ba4a73c9801c4444e364d592922ac361"
-      }
-    ],
-    "task.acknowledge": [
-      {
-        "file": "sounds/villager-male-move-esto.mp3",
-        "label": "Ἔστω (Let it be) - Male Villager",
-        "sha256": "804b5b78196084ac55ce961ee9d5ed78ec53206d6c201644bdad13f672a0f197"
-      },
-      {
-        "file": "sounds/villager-male-move-malista.mp3",
-        "label": "Μάλιστα (Of course) - Male Villager",
-        "sha256": "33f648770568c9df484281d4349fa3a40fecc9dd55ab30af70c2224547b1d504"
-      },
-      {
-        "file": "sounds/villager-male-move-vulome.mp3",
-        "label": "Βούλομαι (I will/want) - Male Villager",
-        "sha256": "fcdec5f728e4ed2ad68a0750c84865885497ab77469c5e3a0bdfed77f3d7be83"
-      },
-      {
-        "file": "sounds/soldier-move-orthos.mp3",
-        "label": "Ὀρθῶς (Correctly/rightly) - Military",
-        "sha256": "f7846a8d81a1c5d1aa99ec1334bc2f20cc500a6bc45762fe6f67ae1f2e107fda"
-      },
-      {
-        "file": "sounds/soldier-attack-kalos.mp3",
-        "label": "Καλῶς (Good, well) - Military",
-        "sha256": "b884e5df1588fbb9d23f1cbb67da769302aaa79c8d11be76240f448551f8a3d7"
-      },
-      {
-        "file": "sounds/hero-move-esto.mp3",
-        "label": "Ἔστω (Let it be) - Heroes",
-        "sha256": "0aba7787e4ec56e85369be30f093535f4b23c603ed9afe50f0f755060b1609d1"
-      },
-      {
-        "file": "sounds/hero-move-malista.mp3",
-        "label": "Μάλιστα (Of course) - Heroes",
-        "sha256": "689557bae7c618989e009258184036e52f1ae5832bab26fe41c7b50ea3daaabf"
-      }
-    ],
-    "task.complete": [
-      {
-        "file": "sounds/villager-male-select-etimos.mp3",
-        "label": "Ἕτοιμος (Ready/willing) - Male Villager",
-        "sha256": "8759e8c93f10345d01150ce3a704e9f071e3e1e5596837b13add5538e6aaa9c0"
-      },
-      {
-        "file": "sounds/soldier-select-etimos.mp3",
-        "label": "Ἕτοιμος (Ready/willing) - Military",
-        "sha256": "c4bebfdb2c147b3008480282b46ac3e48e6e20dd7aae50fd0e142d7855280f38"
-      },
-      {
-        "file": "sounds/hero-select-etimos.mp3",
-        "label": "Ἕτοιμος (Ready/willing) - Heroes",
-        "sha256": "8cd8abbcfee2aecea5a851e894eee8aa0b37682d261e4706aa6b0ec8911375ad"
-      }
-    ],
-    "task.error": [
-      {
-        "file": "sounds/villager-female-select-prosekhe.mp3",
-        "label": "Πρόσεχε (Be careful!) - Female Villager",
-        "sha256": "d0d30b6bafa671cd6cbbfe62aba99698a17c5b4058081427b7648254f088ffab"
-      },
-      {
-        "file": "sounds/hero-select-prosekhe.mp3",
-        "label": "Πρόσεχε (Be careful!) - Heroes",
-        "sha256": "216971d387cb1427310e239e3d75d49be074f14fc037333c4e532ce34286ca0d"
-      }
-    ],
-    "input.required": [
-      {
-        "file": "sounds/villager-male-select-lege.mp3",
-        "label": "Λέγε (Speak) - Male Villager",
-        "sha256": "08b4dda295c072c5c517389c8f2d953a88f60a4d98f9f0c2de335aaac1accc66"
-      },
-      {
-        "file": "sounds/soldier-select-prostaghma.mp3",
-        "label": "Πρόσταγμα (Order/command?) - Military",
-        "sha256": "8bfbc6e3e3e9cba5b97d86f95dd1523faa05ea1c2b87f7900e0af8a05ebe2be1"
-      },
-      {
-        "file": "sounds/hero-select-prostaghma.mp3",
-        "label": "Πρόσταγμα (Order/command?) - Heroes",
-        "sha256": "4efbfef7fed87da0ce4051926ddb5f0e6fe33a2122404353111d93f87f1c28a9"
-      },
-      {
-        "file": "sounds/villager-female-select-lege.mp3",
-        "label": "Λέγε (Speak) - Female Villager",
-        "sha256": "173fa861f153d90e23aed447c4a227f566c358f172ec943a6ce3059b941c1794"
-      },
-      {
-        "file": "sounds/villager-female-select-prostaghma.mp3",
-        "label": "Πρόσταγμα (Order/command?) - Female Villager",
-        "sha256": "de66e0fdbef5a979e42aa2f4c3d7f4a6be6b9620522192d050652d2fb4d54972"
-      },
-      {
-        "file": "sounds/villager-male-select-prostaghma.mp3",
-        "label": "Πρόσταγμα (Order/command?) - Male Villager",
-        "sha256": "073fb1a72f8aa3f586714ad9110a2f76e6af07e926f85d8f6b5d71856b22db51"
-      },
-      {
-        "file": "sounds/soldier-attack-ismakhin.mp3",
-        "label": "Εἰς μάχην (To battle) - Military",
-        "sha256": "9af5c94e2b9cf57acb1d6d130c60b64a7ddba1b0feaf972275d03cbfa967f3ba"
-      },
-      {
-        "file": "sounds/hero-attack-ismakhin.mp3",
-        "label": "Εἰς μάχην (To battle) - Heroes",
-        "sha256": "7f4e987270af2ab2e619c7f6141ee8ac2e53109475b1d9b85ca98949c43e6f53"
-      }
-    ],
-    "resource.limit": [
-      {
-        "file": "sounds/villager-male-select-prosekhe.mp3",
-        "label": "Πρόσεχε (Be careful!) - Male Villager",
-        "sha256": "403269d0f3da243964e41500afb05a86826f7dd83d9dffe73eddee29a3577f0f"
-      },
-      {
-        "file": "sounds/villager-female-select-prosekhe.mp3",
-        "label": "Πρόσεχε (Be careful!) - Female Villager",
-        "sha256": "d0d30b6bafa671cd6cbbfe62aba99698a17c5b4058081427b7648254f088ffab"
-      },
-      {
-        "file": "sounds/hero-select-prosekhe.mp3",
-        "label": "Πρόσεχε (Be careful!) - Heroes",
-        "sha256": "216971d387cb1427310e239e3d75d49be074f14fc037333c4e532ce34286ca0d"
-      }
-    ],
-    "task.progress": [
-      {
-        "file": "sounds/villager-male-build-tekton.mp3",
-        "label": "Τέκτων (Mason) - Male Villager",
-        "sha256": "0bb1b40368afc88f67fc434907417453df7cd8566a3e1c790fc9309c30d0c7b7"
-      },
-      {
-        "file": "sounds/villager-male-chop-dhritomos.mp3",
-        "label": "Δρυτόμος (Timber/woodcutter) - Male Villager",
-        "sha256": "ebd59998a884a52e5eae3fabe867602eae50ca3cc8173b5fc4fdee7894d1868e"
-      },
-      {
-        "file": "sounds/villager-male-fish-aliefs.mp3",
-        "label": "Ἁλιεύς (Fisherman) - Male Villager",
-        "sha256": "a579b6e3185d9659a30cbfb3e3324506756a18a628b31d44238e21992a66869f"
-      },
-      {
-        "file": "sounds/villager-male-forage-vouforvos.mp3",
-        "label": "Βουφόρβος (Ox herder) - Male Villager",
-        "sha256": "dac27b1e4b8b7083e06a2a65b981c22ee5b249e8ded353705d2916bd33f646b0"
-      },
-      {
-        "file": "sounds/villager-male-hunt-thireftis.mp3",
-        "label": "Θηρευτής (Hunter) - Male Villager",
-        "sha256": "d2c3c773189728ffff3212396392f99a6e29410ec379dcfc762f5495a285c8c9"
-      },
-      {
-        "file": "sounds/villager-male-mine-metalefs.mp3",
-        "label": "Μεταλλεύς (Metalworker) - Male Villager",
-        "sha256": "5186b39d835e09c6f1a9ce7fde48f57811a67096476bb21b3c3025083d832334"
-      },
-      {
-        "file": "sounds/villager-male-pray-tapinos.mp3",
-        "label": "Ταπεινός (Humbly) - Male Villager",
-        "sha256": "f097c938089b69d0eac59cfaa307bce3ba4a73c9801c4444e364d592922ac361"
-      }
-    ],
-    "user.spam": [
-      {
-        "file": "sounds/villager-male-attack-isvoli.mp3",
-        "label": "Εἰσβολή (Invasion!) - Male Villager",
-        "sha256": "927c69af63dc7e60c0b66f64826687e840b369785eaa3b378a619806b3d0ee1d"
-      },
-      {
-        "file": "sounds/soldier-attack-isvoli.mp3",
-        "label": "Εἰσβολή (Invasion!) - Military",
-        "sha256": "374c6fa983dce7718d803b6c2a8f8cb2b16921d4bd0a9c8087d03ff023c5e1eb"
-      },
-      {
-        "file": "sounds/hero-attack-isvoli.mp3",
-        "label": "Εἰσβολή (Invasion!) - Heroes",
-        "sha256": "e2a8b3da30aed47f8e6203a98f44b97e47509c6ba0c9f78e9a5d0fec549c0cd2"
-      }
-    ],
-    "session.end": [
-      {
-        "file": "sounds/soldier-attack-kalos.mp3",
-        "label": "Καλῶς (Good, well) - Military",
-        "sha256": "b884e5df1588fbb9d23f1cbb67da769302aaa79c8d11be76240f448551f8a3d7"
-      },
-      {
-        "file": "sounds/hero-attack-kalos.mp3",
-        "label": "Καλῶς (Good, well) - Heroes",
-        "sha256": "13a1ae65bf1c2bf02acd53cd64c335d08f8eac4b7f26f756163ea397c2cedc50"
-      },
-      {
-        "file": "sounds/villager-male-repair-ergatis.mp3",
-        "label": "Ἐργάτης (Worker) - Male Villager",
-        "sha256": "13ffef51473d429d94d41566096aa5e417e354ab033fab499fc0512126c88daa"
-      }
-    ]
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-select-lege.mp3",
+          "label": "Λέγε (Speak) - Male Villager",
+          "sha256": "08b4dda295c072c5c517389c8f2d953a88f60a4d98f9f0c2de335aaac1accc66"
+        },
+        {
+          "file": "sounds/villager-male-select-prostaghma.mp3",
+          "label": "Πρόσταγμα (Order/command?) - Male Villager",
+          "sha256": "073fb1a72f8aa3f586714ad9110a2f76e6af07e926f85d8f6b5d71856b22db51"
+        },
+        {
+          "file": "sounds/villager-male-move-vulome.mp3",
+          "label": "Βούλομαι (I will/want) - Male Villager",
+          "sha256": "fcdec5f728e4ed2ad68a0750c84865885497ab77469c5e3a0bdfed77f3d7be83"
+        },
+        {
+          "file": "sounds/soldier-select-prostaghma.mp3",
+          "label": "Πρόσταγμα (Order/command?) - Military",
+          "sha256": "8bfbc6e3e3e9cba5b97d86f95dd1523faa05ea1c2b87f7900e0af8a05ebe2be1"
+        },
+        {
+          "file": "sounds/soldier-attack-ismakhin.mp3",
+          "label": "Εἰς μάχην (To battle) - Military",
+          "sha256": "9af5c94e2b9cf57acb1d6d130c60b64a7ddba1b0feaf972275d03cbfa967f3ba"
+        },
+        {
+          "file": "sounds/soldier-move-vulome.mp3",
+          "label": "Βούλομαι (I will/want) - Military",
+          "sha256": "5d051bd1147e5b0a049bec57282e66f8445273a549e09e8fbe5a913cc1e720ab"
+        },
+        {
+          "file": "sounds/soldier-attack-porro.mp3",
+          "label": "Πόρρω (Forward!) - Military",
+          "sha256": "ab52680cd564424f5b04f9420424d5f0f368dd61ea264c37f3350544ceef749d"
+        },
+        {
+          "file": "sounds/hero-attack-ismakhin.mp3",
+          "label": "Εἰς μάχην (To battle) - Heroes",
+          "sha256": "7f4e987270af2ab2e619c7f6141ee8ac2e53109475b1d9b85ca98949c43e6f53"
+        },
+        {
+          "file": "sounds/villager-male-chop-dhritomos.mp3",
+          "label": "Δρυτόμος (Timber/woodcutter) - Male Villager",
+          "sha256": "ebd59998a884a52e5eae3fabe867602eae50ca3cc8173b5fc4fdee7894d1868e"
+        },
+        {
+          "file": "sounds/villager-male-mine-metalefs.mp3",
+          "label": "Μεταλλεύς (Metalworker) - Male Villager",
+          "sha256": "5186b39d835e09c6f1a9ce7fde48f57811a67096476bb21b3c3025083d832334"
+        },
+        {
+          "file": "sounds/villager-male-fish-aliefs.mp3",
+          "label": "Ἁλιεύς (Fisherman) - Male Villager",
+          "sha256": "a579b6e3185d9659a30cbfb3e3324506756a18a628b31d44238e21992a66869f"
+        },
+        {
+          "file": "sounds/villager-male-forage-vouforvos.mp3",
+          "label": "Βουφόρβος (Ox herder) - Male Villager",
+          "sha256": "dac27b1e4b8b7083e06a2a65b981c22ee5b249e8ded353705d2916bd33f646b0"
+        },
+        {
+          "file": "sounds/villager-male-pray-tapinos.mp3",
+          "label": "Ταπεινός (Humbly) - Male Villager",
+          "sha256": "f097c938089b69d0eac59cfaa307bce3ba4a73c9801c4444e364d592922ac361"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-move-esto.mp3",
+          "label": "Ἔστω (Let it be) - Male Villager",
+          "sha256": "804b5b78196084ac55ce961ee9d5ed78ec53206d6c201644bdad13f672a0f197"
+        },
+        {
+          "file": "sounds/villager-male-move-malista.mp3",
+          "label": "Μάλιστα (Of course) - Male Villager",
+          "sha256": "33f648770568c9df484281d4349fa3a40fecc9dd55ab30af70c2224547b1d504"
+        },
+        {
+          "file": "sounds/villager-male-move-vulome.mp3",
+          "label": "Βούλομαι (I will/want) - Male Villager",
+          "sha256": "fcdec5f728e4ed2ad68a0750c84865885497ab77469c5e3a0bdfed77f3d7be83"
+        },
+        {
+          "file": "sounds/soldier-move-orthos.mp3",
+          "label": "Ὀρθῶς (Correctly/rightly) - Military",
+          "sha256": "f7846a8d81a1c5d1aa99ec1334bc2f20cc500a6bc45762fe6f67ae1f2e107fda"
+        },
+        {
+          "file": "sounds/soldier-attack-kalos.mp3",
+          "label": "Καλῶς (Good, well) - Military",
+          "sha256": "b884e5df1588fbb9d23f1cbb67da769302aaa79c8d11be76240f448551f8a3d7"
+        },
+        {
+          "file": "sounds/hero-move-esto.mp3",
+          "label": "Ἔστω (Let it be) - Heroes",
+          "sha256": "0aba7787e4ec56e85369be30f093535f4b23c603ed9afe50f0f755060b1609d1"
+        },
+        {
+          "file": "sounds/hero-move-malista.mp3",
+          "label": "Μάλιστα (Of course) - Heroes",
+          "sha256": "689557bae7c618989e009258184036e52f1ae5832bab26fe41c7b50ea3daaabf"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-select-etimos.mp3",
+          "label": "Ἕτοιμος (Ready/willing) - Male Villager",
+          "sha256": "8759e8c93f10345d01150ce3a704e9f071e3e1e5596837b13add5538e6aaa9c0"
+        },
+        {
+          "file": "sounds/soldier-select-etimos.mp3",
+          "label": "Ἕτοιμος (Ready/willing) - Military",
+          "sha256": "c4bebfdb2c147b3008480282b46ac3e48e6e20dd7aae50fd0e142d7855280f38"
+        },
+        {
+          "file": "sounds/hero-select-etimos.mp3",
+          "label": "Ἕτοιμος (Ready/willing) - Heroes",
+          "sha256": "8cd8abbcfee2aecea5a851e894eee8aa0b37682d261e4706aa6b0ec8911375ad"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/villager-female-select-prosekhe.mp3",
+          "label": "Πρόσεχε (Be careful!) - Female Villager",
+          "sha256": "d0d30b6bafa671cd6cbbfe62aba99698a17c5b4058081427b7648254f088ffab"
+        },
+        {
+          "file": "sounds/hero-select-prosekhe.mp3",
+          "label": "Πρόσεχε (Be careful!) - Heroes",
+          "sha256": "216971d387cb1427310e239e3d75d49be074f14fc037333c4e532ce34286ca0d"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-select-lege.mp3",
+          "label": "Λέγε (Speak) - Male Villager",
+          "sha256": "08b4dda295c072c5c517389c8f2d953a88f60a4d98f9f0c2de335aaac1accc66"
+        },
+        {
+          "file": "sounds/soldier-select-prostaghma.mp3",
+          "label": "Πρόσταγμα (Order/command?) - Military",
+          "sha256": "8bfbc6e3e3e9cba5b97d86f95dd1523faa05ea1c2b87f7900e0af8a05ebe2be1"
+        },
+        {
+          "file": "sounds/hero-select-prostaghma.mp3",
+          "label": "Πρόσταγμα (Order/command?) - Heroes",
+          "sha256": "4efbfef7fed87da0ce4051926ddb5f0e6fe33a2122404353111d93f87f1c28a9"
+        },
+        {
+          "file": "sounds/villager-female-select-lege.mp3",
+          "label": "Λέγε (Speak) - Female Villager",
+          "sha256": "173fa861f153d90e23aed447c4a227f566c358f172ec943a6ce3059b941c1794"
+        },
+        {
+          "file": "sounds/villager-female-select-prostaghma.mp3",
+          "label": "Πρόσταγμα (Order/command?) - Female Villager",
+          "sha256": "de66e0fdbef5a979e42aa2f4c3d7f4a6be6b9620522192d050652d2fb4d54972"
+        },
+        {
+          "file": "sounds/villager-male-select-prostaghma.mp3",
+          "label": "Πρόσταγμα (Order/command?) - Male Villager",
+          "sha256": "073fb1a72f8aa3f586714ad9110a2f76e6af07e926f85d8f6b5d71856b22db51"
+        },
+        {
+          "file": "sounds/soldier-attack-ismakhin.mp3",
+          "label": "Εἰς μάχην (To battle) - Military",
+          "sha256": "9af5c94e2b9cf57acb1d6d130c60b64a7ddba1b0feaf972275d03cbfa967f3ba"
+        },
+        {
+          "file": "sounds/hero-attack-ismakhin.mp3",
+          "label": "Εἰς μάχην (To battle) - Heroes",
+          "sha256": "7f4e987270af2ab2e619c7f6141ee8ac2e53109475b1d9b85ca98949c43e6f53"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-select-prosekhe.mp3",
+          "label": "Πρόσεχε (Be careful!) - Male Villager",
+          "sha256": "403269d0f3da243964e41500afb05a86826f7dd83d9dffe73eddee29a3577f0f"
+        },
+        {
+          "file": "sounds/villager-female-select-prosekhe.mp3",
+          "label": "Πρόσεχε (Be careful!) - Female Villager",
+          "sha256": "d0d30b6bafa671cd6cbbfe62aba99698a17c5b4058081427b7648254f088ffab"
+        },
+        {
+          "file": "sounds/hero-select-prosekhe.mp3",
+          "label": "Πρόσεχε (Be careful!) - Heroes",
+          "sha256": "216971d387cb1427310e239e3d75d49be074f14fc037333c4e532ce34286ca0d"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-build-tekton.mp3",
+          "label": "Τέκτων (Mason) - Male Villager",
+          "sha256": "0bb1b40368afc88f67fc434907417453df7cd8566a3e1c790fc9309c30d0c7b7"
+        },
+        {
+          "file": "sounds/villager-male-chop-dhritomos.mp3",
+          "label": "Δρυτόμος (Timber/woodcutter) - Male Villager",
+          "sha256": "ebd59998a884a52e5eae3fabe867602eae50ca3cc8173b5fc4fdee7894d1868e"
+        },
+        {
+          "file": "sounds/villager-male-fish-aliefs.mp3",
+          "label": "Ἁλιεύς (Fisherman) - Male Villager",
+          "sha256": "a579b6e3185d9659a30cbfb3e3324506756a18a628b31d44238e21992a66869f"
+        },
+        {
+          "file": "sounds/villager-male-forage-vouforvos.mp3",
+          "label": "Βουφόρβος (Ox herder) - Male Villager",
+          "sha256": "dac27b1e4b8b7083e06a2a65b981c22ee5b249e8ded353705d2916bd33f646b0"
+        },
+        {
+          "file": "sounds/villager-male-hunt-thireftis.mp3",
+          "label": "Θηρευτής (Hunter) - Male Villager",
+          "sha256": "d2c3c773189728ffff3212396392f99a6e29410ec379dcfc762f5495a285c8c9"
+        },
+        {
+          "file": "sounds/villager-male-mine-metalefs.mp3",
+          "label": "Μεταλλεύς (Metalworker) - Male Villager",
+          "sha256": "5186b39d835e09c6f1a9ce7fde48f57811a67096476bb21b3c3025083d832334"
+        },
+        {
+          "file": "sounds/villager-male-pray-tapinos.mp3",
+          "label": "Ταπεινός (Humbly) - Male Villager",
+          "sha256": "f097c938089b69d0eac59cfaa307bce3ba4a73c9801c4444e364d592922ac361"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/villager-male-attack-isvoli.mp3",
+          "label": "Εἰσβολή (Invasion!) - Male Villager",
+          "sha256": "927c69af63dc7e60c0b66f64826687e840b369785eaa3b378a619806b3d0ee1d"
+        },
+        {
+          "file": "sounds/soldier-attack-isvoli.mp3",
+          "label": "Εἰσβολή (Invasion!) - Military",
+          "sha256": "374c6fa983dce7718d803b6c2a8f8cb2b16921d4bd0a9c8087d03ff023c5e1eb"
+        },
+        {
+          "file": "sounds/hero-attack-isvoli.mp3",
+          "label": "Εἰσβολή (Invasion!) - Heroes",
+          "sha256": "e2a8b3da30aed47f8e6203a98f44b97e47509c6ba0c9f78e9a5d0fec549c0cd2"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/soldier-attack-kalos.mp3",
+          "label": "Καλῶς (Good, well) - Military",
+          "sha256": "b884e5df1588fbb9d23f1cbb67da769302aaa79c8d11be76240f448551f8a3d7"
+        },
+        {
+          "file": "sounds/hero-attack-kalos.mp3",
+          "label": "Καλῶς (Good, well) - Heroes",
+          "sha256": "13a1ae65bf1c2bf02acd53cd64c335d08f8eac4b7f26f756163ea397c2cedc50"
+        },
+        {
+          "file": "sounds/villager-male-repair-ergatis.mp3",
+          "label": "Ἐργάτης (Worker) - Male Villager",
+          "sha256": "13ffef51473d429d94d41566096aa5e417e354ab033fab499fc0512126c88daa"
+        }
+      ]
+    }
   },
   "category_aliases": {
     "greeting": "session.start",
